@@ -1,0 +1,792 @@
+{% extends "layout.html" %}
+{% block content %}
+    <body data-spy="scroll" data-target="#navbarResponsive">
+    <!------------------------- START Home Section ---------------------------------->
+    <div id="home">
+
+        <!---- Navigation ---->
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img alt="logo" src="/static/img/logo/Robotik.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="custom-toggler-icon"><i class="fas fa-bars"></i></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#virtual">Virtual Classes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Log in</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!---- End Navigation ---->
+
+        <!---- START Landing Page image ---->
+
+        <!--- Start Carousel Image Slider -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <!-- Slide One -->
+                <div class="carousel-item active"
+                     style="background-image: url('/static/img/home/D60_AdobeStock_158400756.png')" alt="">
+                    <div class="carousel-caption text-center">
+                        <div class="os-animation" data-animation="bounceInUp" data-delay=".6s">
+                            <h1>Welcome to ROBOTIK4KIDS</h1>
+                        </div>
+                        <div class="os-animation" data-animation="bounceInUp" data-delay=".8s">
+                            <h3>Develop your STEM Knowledge and Skills</h3>
+                        </div>
+                        <div class="os-animation" data-animation="bounceInUp" data-delay="1s">
+                            <a class="btn btn-outline-light btn-lg" href="#features">Get Started</a>
+                        </div>
+                    </div> <!--- End Carousel Caption -->
+                </div>
+                <!-- Slide Two -->
+                <div class="carousel-item"
+                     style="background-image: url('/static/img/home/D60_AdobeStock_207827489.png')" alt=""></div>
+                <!-- Slide Three -->
+                <div class="carousel-item"
+                     style="background-image: url('/static/img/home/D60_AdobeStock_158399881.png')" alt=""></div>
+            </div> <!--- End Carousel Inner -->
+
+            <!--- Previous & Next Buttons -->
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!--- End Carousel Image Slider -->
+        <!---- END Landing Page image ---->
+
+    </div>
+    <!------------------------- END Home Section ---------------------------------->
+
+
+    <!------------------------- START Feature Section ---------------------------------->
+    <div id="features" class="offset">
+
+        <!--- Start Animation -->
+        <div class="os-animation" data-animation="fadeInUp">
+            <div class="narrow text-center">
+                <div class="col-12">
+                    <h1>Robotik4Kids STEM Principles </h1>
+                    <p class="lead">Get engaged at science, technology, engineering and maths in a funny way.</p>
+                    <a class="btn btn-secondary btn-sm" href="#contact">Join us</a>
+                    <a class="btn btn-turquoise btn-sm" href="#portfolio">See Our Projects</a>
+                </div>
+            </div>
+        </div>
+        <!--- End Animation -->
+
+        <!--- Start Jumbotron -->
+        <div class="jumbotron">
+            <div class="narrow">
+
+                <div class="os-animation" data-animation="fadeInUp">
+                    <h3 class="heading">Features</h3>
+                    <div class="heading-underline"></div>
+                </div>
+                <div class="row">
+
+                    <div class="col-sm-6 col-md-4">
+                        <div class="os-animation" data-animation="fadeInLeft">
+                            <div class="feature">
+                                <div class="design">
+                                    <span class="fa-stack fa-2x">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fas fa-desktop fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </div>
+                                <h3>Design</h3>
+                                <p>Start finding conceptual solution to your task</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4">
+                        <div class="os-animation" data-animation="fadeInUp">
+                            <div class="feature">
+                                <div class="build">
+                                    <span class="fa-stack fa-2x">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fas fa-tools fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </div>
+                                <h3>Build</h3>
+                                <p>Challenge your creativity</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4">
+                        <div class="os-animation" data-animation="fadeInRight">
+                            <div class="feature">
+                                <div class="mechanical">
+                                    <span class="fa-stack fa-2x">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fas fa-cogs fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </div>
+                                <h3>Mechanical Movement</h3>
+                                <p>Learn and develop from basic to complex mechanical movement systems</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4">
+                        <div class="os-animation" data-animation="fadeInLeft">
+                            <div class="feature">
+                                <div class="electronic">
+                                    <span class="fa-stack fa-2x">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fas fa-microchip fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </div>
+                                <h3>Electronics</h3>
+                                <p>Learn how to give to your robot the perception of the environment</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4">
+                        <div class="os-animation" data-animation="fadeInUp">
+                            <div class="feature">
+                                <div class="code">
+                                    <span class="fa-stack fa-2x">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fas fa-code fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </div>
+                                <h3>Code</h3>
+                                <p>See how your robot take live!!!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4">
+                        <div class="os-animation" data-animation="fadeInRight">
+                            <div class="feature">
+                                <div class="fun">
+                                    <span class="fa-stack fa-2x">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fas fa-gamepad fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </div>
+                                <h3>Test</h3>
+                                <p>Have a fun time, check your robot's capabilities</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!--- End Row -->
+            </div><!--- End Narrow -->
+        </div><!--- End Jumbotron -->
+        <!--- START Fixed Background IMG Dark --->
+        <div class="fixed-background">
+            <div class="row dark">
+
+                <div class="col-12 os-animation" data-animation="fadeInUp">
+                    <h3 class="heading">Fortress your Ground Knowledge</h3>
+                    <div class="heading-underline"></div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="os-animation" data-animation="fadeInLeft">
+                        <h3>SCIENCE</h3>
+                        <div class="feature">
+                            <div class="science">
+                                <span class="fa-layers fa-4x">
+                                    <i class="fas fa-flask"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <p class="lead">science develop science develop</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="os-animation" data-animation="fadeInUp">
+                        <h3>ENGINEERING</h3>
+                        <div class="feature">
+                            <div class="engineer">
+                                <span class="fa-layers fa-4x">
+                                    <i class="fas fa-user-astronaut"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <p class="lead">engineering develop engineering</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="os-animation" data-animation="fadeInRight">
+                        <h3>COMPUTATIONAL THINKING</h3>
+                        <div class="feature">
+                            <div class="thinking">
+                                <span class="fa-layers fa-4x">
+                                    <i class="fas fa-laptop-code"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <p class="lead">Computational thinking</p>
+                    </div>
+                </div>
+
+            </div><!--- End of Row Dark --->
+
+            <div class="fixed-wrap">
+                <div id="fixed">
+                </div>
+            </div>
+        </div>
+
+        <!--- END Fix Background IMG Dark --->
+    </div>
+    <!------------------------- END Feature Section ---------------------------------->
+
+
+    <!------------------------- START Portfolio Section ---------------------------------->
+    <div id="portfolio" class="offset">
+        <!--- START Jumbotron --->
+        <div class="jumbotron">
+            <div class="narrow">
+                <div class="os-animation" data-animation="fadeInUp">
+                    <h3 class="heading">Portfolio</h3>
+                    <div class="heading-underline"></div>
+                </div>
+                <!--- START Portfolio Columns --->
+                <div class="row justify-content-md-center">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="os-animation" data-animation="fadeInLeft">
+
+                            <div class="portfolio-column text-center">
+                                <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                                <h3>BASIC</h3>
+                                <p>The best projects to get you started off</p>
+                                <div class="portfolio-features">
+                                    <h4><span class="item">Projects</span>: 30</h4>
+                                    <h4><span class="item">Time Lessons</span>: 45min</h4>
+                                    <div class="basic">
+                                        <span class="fa-layers fa-3x">
+                                            <i class="fas fa-users"></i>
+                                        </span>
+                                    </div>
+                                    <h4><span class="item">Best Suitable for</span>: 5 - 10 years</h4>
+                                </div>
+                                <a class="btn btn-warning btn-sm" href="#contact">JOIN NOW</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="os-animation" data-animation="fadeInUp">
+                            <div class="inter">
+                                <div class="portfolio-column text-center">
+                                    <i class="fa fa-plane" aria-hidden="true"></i>
+                                    <h3>INTERMEDIATE</h3>
+                                    <p>Improve your level and Fuel your future. </p>
+                                    <div class="portfolio-features">
+                                        <h4><span class="item">Projects</span>: 36</h4>
+                                        <h4><span class="item">Time Lessons</span>: 60min</h4>
+                                        <span class="fa-layers fa-3x">
+                                            <i class="fas fa-users"></i>
+                                        </span>
+                                        <h4><span class="item">Best Suitable for</span>: 5 - 10 years</h4>
+                                    </div>
+                                    <a class="btn btn-success btn-sm" href="#contact">JOIN NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="os-animation" data-animation="fadeInRight">
+                            <div class="portfolio-column text-center">
+                                <i class="fa fa-rocket" aria-hidden="true"></i>
+                                <h3>ADVANCE</h3>
+                                <p>Raise your level and become an Expert</p>
+                                <div class="portfolio-features">
+                                    <h4><span class="item">Projects</span>: 42</h4>
+                                    <h4><span class="item">Time Lessons</span>: 90min</h4>
+                                    <div class="advance">
+                                        <span class="fa-layers fa-3x">
+                                            <i class="fas fa-users"></i>
+                                        </span>
+                                    </div>
+                                    <h4><span class="item">Best Suitable for</span>: 10 - 17 years</h4>
+                                </div>
+                                <a class="btn btn-primary btn-sm" href="#contact">JOIN NOW</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--- END Portfolio Columns --->
+            </div>
+        </div>
+        <!--- END Jumbotron --->
+    </div>
+    <!------------------------- END Portfolio Section ---------------------------------->
+
+
+    <!------------------------- START Projects Section ---------------------------------->
+    <div id="projects" class="offset">
+        <!--- Start Fixed Backgroud IMG Dark --->
+        <div class="fixed-background">
+            <div class="row light">
+                <div class="col-12 os-animation" data-animation="fadeInUp">
+                    <h3 class="heading">Explore Some Projects</h3>
+                    <div class="heading-underline"></div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="os-animation" data-animation="fadeInUp">
+                        <div id="projects-slider" class="owl-carousel owl-theme">
+
+                            <div class="card text-center">
+                                <img class="card-img-top" src="/static/img/projects/R4K_Batman_1.jpeg" alt="">
+                                <div class="card-body">
+                                    <h4>Batmovil Tumbler</h4>
+                                    <h5> INTERMEDIATE PLAN</h5>
+                                    <p>use some text here</p>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="card text-center">
+                                <img class="card-img-top" src="/static/img/projects/R4K_WiWing_SW.jpeg" alt="">
+                                <div class="card-body">
+                                    <h4>Star Wars Space Ship</h4>
+                                    <h5> INTERMEDIATE PLAN</h5>
+                                    <p>use some text here</p>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="card text-center">
+                                <img class="card-img-top" src="/static/img/projects/R4K_Crane_2.jpeg" alt="">
+                                <div class="card-body">
+                                    <h4>SUV</h4>
+                                    <h5> INTERMEDIATE PLAN</h5>
+                                    <p>use some text here</p>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="card text-center">
+                                <img class="card-img-top" src="/static/img/projects/R4K_MotorBike.jpeg" alt="">
+                                <div class="card-body">
+                                    <h4>MOTORBIKE</h4>
+                                    <h5> INTERMEDIATE PLAN</h5>
+                                    <p>use some text here</p>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="card text-center">
+                                <img class="card-img-top" src="/static/img/projects/R4K_DinoRex_1.jpeg" alt="">
+                                <div class="card-body">
+                                    <h4>DINO T-REX</h4>
+                                    <h5> INTERMEDIATE PLAN</h5>
+                                    <p>use some text here</p>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="card text-center">
+                                <img class="card-img-top" src="/static/img/projects/R4K_Heli.jpeg" alt="">
+                                <div class="card-body">
+                                    <h4>HELICOPTER</h4>
+                                    <h5> INTERMEDIATE PLAN</h5>
+                                    <p>use some text here</p>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="card text-center">
+                                <img class="card-img-top" src="/static/img/projects/R4K_Harvesting.jpeg" alt="">
+                                <div class="card-body">
+                                    <h4>HELICOPTER</h4>
+                                    <h5> INTERMEDIATE PLAN</h5>
+                                    <p>use some text here</p>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="card text-center">
+                                <img class="card-img-top" src="/static/img/projects/R4K_Dusty.jpeg" alt="">
+                                <div class="card-body">
+                                    <h4>SPORT SUV</h4>
+                                    <h5> INTERMEDIATE PLAN</h5>
+                                    <p>use some text here</p>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="card text-center">
+                                <img class="card-img-top" src="/static/img/projects/R4K_DeepSea.jpeg" alt="">
+                                <div class="card-body">
+                                    <h4>SUBMARINE EXPLORER</h4>
+                                    <h5> INTERMEDIATE PLAN</h5>
+                                    <p>use some text here</p>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="card text-center">
+                                <img class="card-img-top" src="/static/img/projects/R4K_Truck_1.jpeg" alt="">
+                                <div class="card-body">
+                                    <h4>SUPER TRUCK</h4>
+                                    <h5> INTERMEDIATE PLAN</h5>
+                                    <p>use some text here</p>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                                </div>
+                            </div>
+
+                        </div><!--- End Projects Sliders --->
+                    </div><!--- End Animation --->
+                </div><!--- End col-md-12 --->
+            </div><!--- End of Row Light --->
+
+            <div class="fixed-wrap">
+                <div id="fixed-2">
+                </div>
+            </div>
+        </div>
+        <!--- End Fixed Backgroud IMG Dark --->
+    </div>
+    <!------------------------- END Projects Section ---------------------------------->
+
+
+    <!------------------------- START Skills Section ---------------------------------->
+    <div id="skills" class="offset">
+        <!--- Start Jumbotron --->
+        <div class="jumbotron">
+            <div class="narrow">
+
+                <div class="col-12 os-animation" data-animation="fadeInUp">
+                    <h3 class="heading">OUR SKILLS</h3>
+                    <div class="heading-underline"></div>
+                </div>
+
+                <div class="os-animation" data-animation="fadeInUp">
+                    <div class="row text-center">
+
+                        <div class="col-sm-6 col-md-3">
+                            <span class="fa-layers fa-4x">
+                                <i class="fas fa-clock"></i>
+                            </span>
+                            <h3><span class="counter">4320</span></h3>
+                            <p>Class Minutes</p>
+                        </div>
+
+                        <div class="col-sm-6 col-md-3">
+                            <span class="fa-layers fa-4x">
+                                <i class="fab fa-codepen"></i>
+                            </span>
+                            <h3><span class="counter">72</span></h3>
+                            <p>Projects</p>
+                        </div>
+
+                        <div class="col-sm-6 col-md-3">
+                            <span class="fa-layers fa-4x">
+                                <i class="fas fa-terminal"></i>
+                            </span>
+                            <h3><span class="counter">216</span></h3>
+                            <p>Codes for Test</p>
+                        </div>
+
+                        <div class="col-sm-6 col-md-3">
+                            <span class="fa-layers fa-4x">
+                                <i class="fas fa-book-open"></i>
+                            </span>
+                            <h3><span class="counter">4800</span></h3>
+                            <p>Resources Pages for Building Instruction</p>
+                        </div>
+
+                    </div><!--- End of Row --->
+                </div><!--- End of Animation --->
+
+                <div class="os-animation" data-animation="fadeInUp">
+                    <div class="col-12 text-center">
+                        <p class="lead">Want to learn more about our projects and development skills?</p>
+                        <a class="btn btn-turquoise btn-sm" href="#contact">Contact Us</a>
+                    </div>
+                </div>
+
+            </div><!--- End of narrow --->
+        </div><!--- End of Jumbotron --->
+    </div>
+    <!------------------------- END Skills Section ---------------------------------->
+
+
+    <!------------------------- START Virtual Section ---------------------------------->
+    <div id="virtual" class="offset">
+
+        <div class="os-animation" data-animation="fadeInUp">
+            <div class="narrow text-center">
+                <div class="col-12">
+                    <h1>VIRTUAL CLASSES</h1>
+                    <p class="lead">Make your projects come to live!</p>
+
+                    <div class="row">
+
+                        <div class="col-sm-6 col-md-3">
+                            <h1><span class="badge badge-primary w-100">BUILD</span></h1>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <h1><span class="badge badge-success w-100">CODE</span></h1>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <h1><span class="badge badge-warning w-100">LEARN</span></h1>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <h1><span class="badge badge-danger w-100">PLAY</span></h1>
+                        </div>
+
+                    </div><!--- End Row --->
+                </div>
+            </div>
+        </div>
+
+        <div class="fixed-background">
+            <div class="row light">
+                <div class="col-12 os-animation" data-animation="fadeInUp">
+                    <h3 class="heading">COMPUTATIONAL THINKING</h3>
+                    <div class="heading-underline"></div>
+                </div>
+
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="os-animation" data-animation="fadeInLeft">
+                        <div class="feature">
+                            <div class="decomposition">
+                                 <span class="fa-stack fa-2x">
+                                     <i class="fas fa-circle fa-stack-2x"></i>
+                                     <i class="fas fa-desktop fa-stack-1x fa-inverse"></i>
+                                 </span>
+                            </div>
+                            <h3>Decomposition</h3>
+                            <p>Split the Main-task in smaller task</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="os-animation" data-animation="fadeInUp">
+                        <div class="feature">
+                            <div class="generalization">
+                                 <span class="fa-stack fa-2x">
+                                     <i class="fas fa-circle fa-stack-2x"></i>
+                                     <i class="fas fa-desktop fa-stack-1x fa-inverse"></i>
+                                 </span>
+                            </div>
+                            <h3>Generalization</h3>
+                            <p>Pattern recognition</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="os-animation" data-animation="fadeInRight">
+                        <div class="feature">
+                            <div class="algorithm">
+                                 <span class="fa-stack fa-2x">
+                                     <i class="fas fa-circle fa-stack-2x"></i>
+                                     <i class="fas fa-desktop fa-stack-1x fa-inverse"></i>
+                                 </span>
+                            </div>
+                            <h3>Algorithmic Thinking</h3>
+                            <p>Coding</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="os-animation" data-animation="fadeInLeft">
+                        <div class="feature">
+                            <div class="eval">
+                                 <span class="fa-stack fa-2x">
+                                     <i class="fas fa-circle fa-stack-2x"></i>
+                                     <i class="fas fa-desktop fa-stack-1x fa-inverse"></i>
+                                 </span>
+                            </div>
+                            <h3>Evaluating</h3>
+                            <p>Check the performance of the outcome</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="os-animation" data-animation="fadeInUp">
+                        <div class="feature">
+                            <div class="abstraction">
+                                 <span class="fa-stack fa-2x">
+                                     <i class="fas fa-circle fa-stack-2x"></i>
+                                     <i class="fas fa-desktop fa-stack-1x fa-inverse"></i>
+                                 </span>
+                            </div>
+                            <h3>Abstraction</h3>
+                            <p>Spread your comprehension on a wider task</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="os-animation" data-animation="fadeInRight">
+                        <div class="feature">
+                            <div class="improve">
+                                 <span class="fa-stack fa-2x">
+                                     <i class="fas fa-circle fa-stack-2x"></i>
+                                     <i class="fas fa-desktop fa-stack-1x fa-inverse"></i>
+                                 </span>
+                            </div>
+                            <h3>Improve</h3>
+                            <p>Start to Play and Enhance your project</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="fixed-wrap">
+                    <div id="fixed-3"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!------------------------- END Virtual Section ---------------------------------->
+
+
+    <!------------------------- START Contact Section ---------------------------------->
+    <div id="contact" class="offset">
+        <footer>
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="/static/img/logo/Robotik.png" alt="">
+                    <p>At out core is a collection of design and development solutions that represent everything
+                        your business needs to compete in the modern marketplace.</p>
+                    <strong>Our Locations</strong>
+                    <p>151 Champion Vue<br>Davenport, FL. US 33897</p>
+                    <strong>Contact Info</strong>
+                    <p>(888) 888-8888<br> email@robotik4kids.com</p>
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-reddit-square"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+
+                <div class="col-md-7">
+                    <h3>Contact Us</h3>
+
+                    <form id="contact-form" method="post" action="/static/php/contact.php">
+
+                        <div class="messages"></div>
+                        <div class="controls">
+
+                            <div class="form-group">
+                                <input id="form_name" type="text" name="name" class="form-control"
+                                       placeholder="Enter your name." required="required">
+                            </div>
+
+                            <div class="form-group">
+                                <input id="form_email" type="email" name="email" class="form-control"
+                                       placeholder="Enter your email." required="required">
+                            </div>
+
+                            <div class="form-group">
+                                <textarea id="form_message" name="message" class="form-control"
+                                          placeholder="Add your message." rows="4" required="required"></textarea>
+                            </div>
+
+                            <input type="submit" class="btn btn-outline-light btn-sm" value="Send message">
+
+                        </div>
+
+                    </form>
+                </div>
+
+                <hr class="socket">
+                &copy; Robotik4Kids.
+            </div><!--- End of Row --->
+        </footer><!--- End of Footer --->
+    </div>
+    <!------------------------- END Contact Section ---------------------------------->
+
+    <!--- Top Scroll -->
+    <a href="#home" class="top-scroll">
+        <i class="fas fa-angle-up" aria-hidden="true"></i>
+    </a>
+    <!--- End of Top Scroll -->
+
+
+    <!------------------------- START Login Section ---------------------------------->
+    <div id="login" class="offset">
+
+    </div>
+    <!------------------------- END Login Section ---------------------------------->
+
+    </body>
+{% endblock %}
